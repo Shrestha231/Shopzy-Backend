@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
 
 app.get("/demo", (req, res) => {
   res.send("this is demo server");
-  // console.log("hello sam!");
+  
 });
 
 app.listen(PORT, () => {
